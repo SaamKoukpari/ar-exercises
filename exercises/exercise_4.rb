@@ -21,6 +21,6 @@ end
 
 @womens_stores.each do |store|
   if store.annual_revenue < 1000000
-    puts "Store Name: " + store.name + ". Annual Revenue: " + store.annual_revenue.to_s
+    puts store.name, store.annual_revenue.to_s
   end
 end
